@@ -1,16 +1,126 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Dev Test</title>
   </head>
-  <body>
-    
+  <body
+    class="w-full bg-slate-950 grid grid-cols-6 grid-rows-[auto,1fr] gap-3 h-screen"
+  >
+    <!-- Navbar -->
+    <nav
+      class="w-full h-14 row-span-1 col-span-6 bg-slate-800 px-4 flex items-center"
+    >
+      <h1 class="text-lg text-neutral-100 font-semibold">Dev.Test</h1>
+    </nav>
+
+    <!-- Left sidebar -->
+    <article
+      class="bg-slate-800 col-span-1 row-span-1 row-start-2 rounded-tr-xl p-4 h-full"
+    >
+      <h1 class="text-xl text-neutral-100 font-semibold mb-1">Events</h1>
+      <p class="text-lg font-light text-neutral-100">Calendar</p>
+    </article>
+
+    <!-- Main div -->
+    <main
+      class="relative bg-slate-800 col-span-5 row-span-1 row-start-2 rounded-tl-xl p-6 overflow-auto"
+    >
+      <div class="flex flex-wrap gap-6">
+        <div
+          id="add-button"
+          class="w-14 h-14 bg-primary border border-slate-800 flex items-center justify-center rounded-full fixed bottom-10 right-10 cursor-pointer hover:bg-red-400"
+        >
+          <i class="fas fa-plus text-white text-2xl"></i>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+
+        <div
+          class="h-fit hover:scale-105 transition-all flex flex-col gap-3 rounded-[5px] bg-slate-950 p-3"
+          data-swapy-item="a"
+        >
+          <h1 class="text-xl font-bold text-neutral-100">Town Hall Meeting</h1>
+          <h3 class="font-light text-sm text-neutral-400">Time: 8:30</h3>
+          <h3 class="font-light text-sm text-neutral-400">Date: 10/25/2024</h3>
+          <h3 class="font-light text-sm text-neutral-400">
+            Address: 123 Main St, Jersey City 07024
+          </h3>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/52bc4c145c.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
